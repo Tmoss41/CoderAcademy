@@ -1,0 +1,105 @@
+html{
+    color: black;
+    background-color:rgba(156, 224, 236, 0.904);
+    background-size: cover;
+    font-family: 'DotGothic16', sans-serif;
+    width: auto;
+}
+h2{
+    text-align: center;
+    font-family: 'Stick', sans-serif;
+}
+nav{
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+}
+a {
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: purple;
+    padding: 10px;
+    font-size: 30px;
+    color: lightpink;
+    
+}
+a:hover {
+    color: blue;
+    background-color: lightpink;
+    border-radius: 80px;
+    transition: border-radius 350ms;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Stick', sans-serif;
+}
+h1:hover {
+    font-family: 'DotGothic16', sans-serif;
+    transition: font-family  60s; 
+}
+footer{
+    font-size: 10px;
+    text-align: center; 
+}
+img{
+    margin-left: 25%;
+    width: 500px;
+}
+p{
+    width: 1200px;
+    margin-left: 75px;
+    margin-right: 100px;
+    padding: 0px;
+}
+ul{
+    display: flex;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 330px 330px 330px 330px;
+    grid-template-rows: 550px;
+    background-color: rgba(219, 167, 255, 0.5);
+    width: 1320px;
+    margin-left: 50px;
+}
+.griditem{
+    border: 5px dotted rgba(219, 167, 255, 0.5);
+    font-size: 12px;
+}
+
+.biopics{
+    width: 320px;
+    margin-left: 20px;
+    height: 420px;
+    margin: 0px;
+}
+.gridcontainerdisco{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    max-width: 990px;
+    min-width: 330px;
+    grid-template-rows: 800px;
+    background-color: rgba(219, 167, 255, 0.5);
+    width: 990px;
+    margin-left: 200px;
+}
+.discopics{
+    width: 320px;
+    height: 320px;
+    margin-left: 20px;
+    margin: 0px;
+}
+.indexgrid{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    border:5px dotted rgba(219, 167, 255, 0.75);
+    background-color:rgba(219, 167, 255, 0.5);
+    width: auto
+}
+.indextext{
+    width: 550px;
+}
+.indeximage{
+    padding-top: 50px;
+}
